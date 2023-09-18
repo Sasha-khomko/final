@@ -1,0 +1,134 @@
+.title {
+    color: #1F252D;
+    text-align: center;
+    font-family: Usually-font;
+    font-size: 70px;
+    font-weight: 700; 
+    margin-left: -244px;
+}
+
+.block1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    gap: 22px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    /* gap: 400px; */
+}
+
+.wrap_text {
+    position: relative;
+    display: flex;
+}
+
+.text1 {
+    width: 250px;
+    color: #FFF;
+    font-family: "Uindbase Font 1";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.text2 {
+    position: absolute;
+    top: 70px;
+    right: -60px;
+    color: #FFF;
+    font-family: Usually-font;
+    font-size: 75px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    transform: rotate(-90deg);
+}
+.text3 {
+    width: 708px;
+    color: #FFF;
+    font-family: "Uindbase Font 1";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.collection1 {
+    margin-bottom: 17px;
+}
+.collection2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.collection3 {
+    margin-right: -300px;
+    z-index: 1;
+    margin-bottom: 60px;
+}
+
+.wrapper__title2 {
+    display: flex;
+    position: relative;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.title__background2 {  
+    color: #1F252D;
+    text-align: left;
+    font-family: Usually-font;
+    font-size: 130px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.title2_2 {   
+    position: absolute;
+    top: -10px;
+    color: #FFF;
+    font-family: "Uindbase Font 1";
+    font-size: 85px;
+    font-weight: 400;
+}
+
+.contacts__wrap {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.contact {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrap__contact {
+    color: #FFF;
+    font-family: "Uindbase Font 1";
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.wrap__contact a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+

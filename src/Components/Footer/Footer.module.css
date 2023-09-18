@@ -1,0 +1,24 @@
+.container {
+    padding: 50px 0 50px;
+    display: flex;   
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text {
+    color: #fff;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    flex-direction: column;
+    gap: 10px;
+    color: #fff;
+}
+
+.icons {
+    display: flex;
+    gap: 5px;
+}

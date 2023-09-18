@@ -1,0 +1,79 @@
+.container {
+    padding-top: 50px;
+}
+
+.title {
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.wrapper h1 {
+    color: #1F252D;
+    text-align: right;
+    font-family: Usually-font;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160px;
+    text-transform: uppercase;
+}
+
+.wrapper h2 {
+    position: absolute;
+    bottom: 20px;
+    color: #FFF;
+    text-shadow: 9px 9px 4px rgba(0, 0, 0, 0.25);
+    font-family: Uindbase Font 1;
+    font-size: 85px;
+    font-weight: 400;
+}
+
+.acardion {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    font-size: 30px;
+    color: #fff;
+    background: aquamarine;
+
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.button button {
+    border: none;
+    color: #fff;
+    font-family: "Uindbase Font 1";
+    font-size: 20px;
+    background: none;
+    font-weight: 400;
+    cursor: pointer;
+    border-bottom: 2px solid #fff;
+}

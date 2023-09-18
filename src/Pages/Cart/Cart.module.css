@@ -1,0 +1,146 @@
+.wrap_title {
+    padding-left: 50px;
+}
+
+.wrap_title h1 {
+    color: #1F252D;
+    font-family: Usually-font;
+    font-size: 130px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+.title {
+    color: #FFF;
+    font-family: "Uindbase Font 1";
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.wrap_cart {
+    width: 100%;
+    text-align: center;
+}
+
+.wrap_cart p {
+    color: #FFF;
+    font-family: "Uindbase Font 1";
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.form {
+    max-width: 500px;
+    max-height: 550px;
+    border-left: 3px solid #1F252D;
+    padding-left: 13px;
+}
+
+.text {
+    color: #3B4654;
+    font-family: "Uindbase Font 1";
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+input {
+    display: flex;
+    padding: 10px 300px 15px 10px;
+    border: none;
+    margin: 5px 0 0;
+    align-items: center;
+    border-radius: 10px;
+    background: #10171F;
+    color: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.wrap {
+    display: flex;
+    gap: 48px;
+}
+
+.home {
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+.block1 {
+    margin-top: 13px;
+}
+
+.block2 {
+    margin-top: 21px;
+}
+
+.block3 {
+    margin-top: 21px;      
+}
+
+.block4 {
+    display: flex;
+    gap: 40px;
+    margin-top: 21px;
+}
+
+.online {
+    display: flex;
+    width: 194px;
+    height: 52px;
+    padding: 10px 10px 10px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: "Uindbase Font 1";
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;   
+    border-radius: 10px;
+    background: #10171F;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.wrap_button {
+    display: flex; 
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+
+.button_toDesign {
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 50px;
+    border: 2px solid #D1C12B;
+    background: rgba(15, 21, 29, 0.20);
+    color: #D1C12B;
+    text-align: center;
+    font-family: Rosario;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.button_toDesign:hover {
+    background-image: url(../../assets/img/Group1.svg);
+}

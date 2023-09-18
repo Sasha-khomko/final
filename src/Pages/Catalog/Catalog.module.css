@@ -1,0 +1,31 @@
+
+.title {
+    color: #1F252D;
+    text-align: center;
+    font-family: Usually-font;
+    font-size: 130px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+}
+
+.catalog {
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    padding-left: 100px;
+}
+
+.catalog a {
+    color: #FFF;
+    font-family: "Uindbase Font 1";
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: flex;
+}

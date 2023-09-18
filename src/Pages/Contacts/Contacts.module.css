@@ -1,0 +1,61 @@
+.contacts{
+    margin-top: 50px;
+}
+.wrapper__title2 {
+    display: flex;
+    position: relative;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.title__background2 {  
+    color: #1F252D;
+    text-align: left;
+    font-family: Usually-font;
+    font-size: 130px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.title2_2 {   
+    position: absolute;
+    top: -10px;
+    color: #FFF;
+    font-family:"Uindbase Font 1";
+    font-size: 85px;
+    font-weight: 400;
+}
+
+.contacts__wrap {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.contact {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrap__contact {
+    color: #FFF;
+    font-family: "Uindbase Font 1";
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.wrap__contact a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}

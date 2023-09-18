@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Rosario:wght@500&display=swap');
+
+.block {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 60px 0;
+}
+
+.wrapper__title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.title__background {
+    color: #1F252D;
+    text-align: center;
+    font-family: Usually-font;
+    font-size: 120px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.title {
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: Usually-font;
+    font-size: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 4px 0 0 rgba(163, 50, 202, 1);
+    z-index: 1;
+}
+.title2 {
+    position: absolute;
+    left: -5px;
+    color: rgba(209, 193, 43, 0);
+    text-align: center;
+    font-family: Usually-font;
+    font-size: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 4px rgba(209, 193, 43, 1);
+}
+
+.block p {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 10px 24px 10px rgba(0, 0, 0, 0.27);
+    font-family: "Uindbase Font 1";
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.wrapper__button {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+.wrapper__title2 {
+    display: flex;
+    position: relative;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.title__background2 {  
+    color: #1F252D;
+    text-align: left;
+    font-family: Usually-font;
+    font-size: 130px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.title2_2 {   
+    position: absolute;
+    top: -10px;
+    color: #FFF;
+    font-family: "Uindbase Font 1";
+    font-size: 85px;
+    font-weight: 400;
+}
+
+.contacts__wrap {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.contact {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrap__contact {
+    color: #FFF;
+    font-family: "Uindbase Font 1";
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.wrap__contact a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
