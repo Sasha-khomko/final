@@ -132,3 +132,233 @@ body {
   flex-direction: column;
   position: relative;
 }
+
+@media all and (max-width: 1158px) {
+  .slider {
+    height: 550px;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  
+  .wrapper_title h1 {
+    font-size: 70px;
+  }
+
+  .slider {
+    height: 450px;
+  }
+
+  .wrapper {
+    bottom: 90px;
+    right: 30px;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .slider {
+    height: 400px;
+  }
+}
+
+@media all and (max-width: 850px) {
+  .slider {
+    height: 370px;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .block_title {
+    padding-top: 50px;
+  }
+  
+  .wrapper_title h1 {
+    font-size: 60px;
+    padding-left: 10px
+  }
+
+  .wrapper_title h2 {
+    font-size: 60px;
+    left: 50px;
+  }
+
+  .wrapper {
+    display: none;
+  }
+  
+
+  .slider {
+    height: 350px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 40px;
+  }
+
+  .swiper-slide {
+    display: flex;
+  }
+}
+
+@media all and (max-width: 768px) {
+
+  .block_title {
+    padding-top: 50px;
+  }
+  
+  .wrapper_title h1 {
+    font-size: 60px;
+    padding-left: 10px
+  }
+
+  .wrapper_title h2 {
+    font-size: 60px;
+    left: 50px;
+  }
+
+  .wrapper {
+    display: none;
+  }
+  
+
+  .slider {
+    height: 310px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 40px;
+  }
+
+  .swiper-slide {
+    display: flex;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .slider {
+    height: 280px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .slider {
+    height: 260px;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .slider {
+    height: 240px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .slider {
+    height: 220px;
+  }
+}
+
+@media all and (max-width: 425px) {
+
+  .block_title {
+    padding-top: 50px;
+  }
+  
+  .wrapper_title h1 {
+    font-size: 45px;
+    padding-left: 10px
+  }
+
+  .wrapper_title h2 {
+    font-size: 41px;
+    left: 10px;
+    width: 45%;
+  }
+
+  .wrapper {
+    display: none;
+  }
+  
+
+  .slider {
+    height: 180px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 40px;
+  }
+
+  .swiper-slide {
+    display: flex;
+  }
+}
+
+@media all and (max-width: 375px) {
+
+  .block_title {
+    padding-top: 50px;
+  }
+  
+  .wrapper_title h1 {
+    font-size: 45px;
+    padding-left: 10px
+  }
+
+  .wrapper_title h2 {
+    font-size: 41px;
+    left: 10px;
+    width: 45%;
+  }
+
+  .wrapper {
+    display: none;
+  }
+  
+
+  .slider {
+    height: 160px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 40px;
+  }
+
+  .swiper-slide {
+    display: flex;
+  }
+}
+
+@media all and (max-width: 320px) {
+
+  .block_title {
+    padding-top: 50px;
+  }
+  
+  .wrapper_title h1 {
+    font-size: 45px;
+    padding-left: 10px
+  }
+
+  .wrapper_title h2 {
+    font-size: 41px;
+    left: 10px;
+    width: 45%;
+  }
+
+  .wrapper {
+    display: none;
+  }
+  
+
+  .slider {
+    height: 140px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 40px;
+  }
+
+  .swiper-slide {
+    display: flex;
+  }
+}

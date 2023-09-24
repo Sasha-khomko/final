@@ -6,6 +6,12 @@
     padding-top: 35px;
 }
 
+.menu {
+    border: none;
+    background: none;
+    color: #D1C12B;
+}
+
 .container__nav {
     display: flex;
     align-items: center;
@@ -20,7 +26,7 @@
 .wrapper__nav  {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 55px;
 
 }
 
@@ -60,3 +66,262 @@
     gap: 68px;
     color: #fff;
 }
+
+@media all and (max-width: 850px) {
+    .header {
+        padding: 35px 15px 0 15px;
+    }
+
+    .wrapper__nav svg {
+        display: none;
+    }
+
+    .container__nav {  
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    
+    }
+
+    .wrapper__nav {
+        align-items: flex-start;     
+        position: relative;
+    }
+
+    .nav li {
+        font-size: 18px;
+    }
+
+    .content {
+        display: none;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .header {
+        padding: 35px 15px 0 15px;
+    }
+
+    .wrapper__nav svg {
+        display: none;
+    }
+
+    .container__nav {  
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    
+    }
+
+    .wrapper__nav {
+        align-items: flex-start;     
+        position: relative;
+    }
+
+    .nav li {
+        font-size: 18px;
+    }
+
+    .content {
+        display: none;
+    }
+}
+
+@media all and (max-width: 799px) {
+    .nav {
+        position: absolute;
+        left: 145px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    
+    .header {
+        padding: 35px 15px 0 15px;
+    }
+
+    .wrapper__nav svg {
+        display: none;
+    }
+
+    .container__nav {  
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    
+    }
+
+    .wrapper__nav {
+        align-items: flex-start;     
+        position: relative;
+    }
+
+    .nav {
+        position: absolute;
+        left: 145px;
+    }
+
+    .nav li {
+        font-size: 18px;
+    }
+
+    .content {
+        display: none;
+    }
+
+}
+
+@media all and (max-width: 700px) {
+    .nav {
+        left: 125px;
+    }
+}
+
+@media all and (max-width: 650px) {
+    .nav {
+        left: 115px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .nav {
+        left: 105px;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .nav {
+        left: 95px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .nav {
+        left: 85px;
+    }
+}
+
+@media all and (max-width: 425px) {
+    
+    .header {
+        padding: 35px 15px 0 15px;
+    }
+
+    .wrapper__nav svg {
+        display: none;
+    }
+
+    .container__nav {  
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    }
+
+    .wrapper__nav {
+        align-items: flex-start;     
+        position: relative;
+    }
+
+    .nav {
+        position: absolute;
+        left: 130px;
+    }
+
+    .nav li {
+        font-size: 18px;
+    }
+
+    .content {
+        display: none;
+    }
+
+}
+
+@media all and (max-width: 375px) {
+    
+    .header {
+        padding: 35px 15px 0 15px;
+    }
+
+    .wrapper__nav svg {
+        display: none;
+    }
+
+    .container__nav {  
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    }
+
+    .wrapper__nav {
+        align-items: flex-start;     
+        position: relative;
+    }
+
+    .nav {
+        position: absolute;
+        left: 110px;
+    }
+
+    .nav li {
+        font-size: 18px;
+    }
+
+    .content {
+        display: none;
+    }
+
+}
+
+@media all and (max-width: 320px) {
+    
+    .header {
+        padding: 35px 15px 0 15px;
+    }
+
+    .wrapper__nav svg {
+        display: none;
+    }
+
+    .container__nav {  
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    }
+
+    .wrapper__nav {
+        align-items: flex-start;     
+        position: relative;
+    }
+
+    .nav {
+        position: absolute;
+        left: 80px;
+    }
+
+    .nav li {
+        font-size: 18px;
+    }
+
+    .content {
+        display: none;
+    }
+
+}
+
+
+
+@media (min-width: 800px) {
+    .menu {
+        display: none;
+    }
+    
+    .nav {
+        display: flex;
+        gap: 20px;
+    }
+    }
+
+
+
+

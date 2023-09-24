@@ -22,6 +22,10 @@ const Cart = () => {
 
   const submit = (e) => {
     e.preventDefault();
+    if (!products.length){
+      alert('Корзина пуста');
+      return;
+    }
     setForm(initialFomrState);
   };
 
@@ -47,6 +51,7 @@ const Cart = () => {
                 value={form.serName}
                 type="text"
                 placeholder="фамилия"
+                required
                 onChange={(e) =>
                   setForm((prSt) => ({ ...prSt, serName: e.target.value }))
                 }
@@ -58,6 +63,7 @@ const Cart = () => {
                 value={form.name}
                 type="text"
                 placeholder="имя"
+                required
               />
               <input
                 onChange={(e) =>
@@ -77,6 +83,7 @@ const Cart = () => {
                 value={form.phone}
                 type="text"
                 placeholder="+375 ( )   -   -  "
+                required
               />
             </div>
             <div className={styles.block3}>
@@ -88,6 +95,7 @@ const Cart = () => {
                 value={form.city}
                 type="text"
                 placeholder="город"
+                required
               />
               <input
                 onChange={(e) =>
@@ -96,6 +104,7 @@ const Cart = () => {
                 value={form.street}
                 type="text"
                 placeholder="Улица"
+                required
               />
               <div className={styles.wrap}>
                 <input

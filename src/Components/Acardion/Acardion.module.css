@@ -32,7 +32,7 @@
     bottom: 20px;
     color: #FFF;
     text-shadow: 9px 9px 4px rgba(0, 0, 0, 0.25);
-    font-family: Uindbase Font 1;
+    font-family: "Uindbase Font 1";
     font-size: 85px;
     font-weight: 400;
 }
@@ -77,3 +77,151 @@
     cursor: pointer;
     border-bottom: 2px solid #fff;
 }
+
+@media all and (max-width: 1100px){
+    .wrapper h1 {
+        font-size: 95px;
+    }
+
+    .wrapper h2 {
+        font-size: 110px;
+    }
+}
+
+@media all and (max-width: 1050px){
+    .wrapper h1 {
+        font-size: 95px;
+    }
+
+    .wrapper h2 {
+        font-size: 110px;
+    }
+}
+
+@media all and (max-width: 1024px){
+    .wrapper h1 {
+        font-size: 95px;
+    }
+
+    .wrapper h2 {
+        font-size: 110px;
+    }
+}
+
+@media all and (max-width: 850px) {
+    .wrapper h1 {
+        font-size: 70px;
+        padding-left: 10px;
+    }
+  
+    .wrapper h2 {
+        font-size: 70px;
+        top: 60px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .container {
+        padding-top: 0;
+    }
+    .wrapper h1 {
+        font-size: 60px;
+        padding-left: 10px;
+    }
+  
+    .wrapper h2 {
+        font-size: 50px;
+        top: 60px;
+    }
+}
+
+@media all and (max-width: 768px) {
+  .container {
+      padding-top: 0;
+  }
+  .wrapper h1 {
+      font-size: 60px;
+      padding-left: 10px;
+  }
+
+  .wrapper h2 {
+      font-size: 50px;
+      top: 60px;
+  }
+}
+
+@media all and (max-width: 550px) {
+    .container {
+        padding-top: 0;
+    }
+    .wrapper h1 {
+        font-size: 30px;
+        padding-left: 10px;
+    }
+  
+    .wrapper h2 {
+        font-size: 35px;
+        top: 60px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .container {
+        padding-top: 0;
+    }
+    .wrapper h1 {
+        font-size: 30px;
+        padding-left: 10px;
+    }
+  
+    .wrapper h2 {
+        font-size: 35px;
+        top: 60px;
+    }
+}
+
+@media all and (max-width: 425px) {
+  .container {
+      padding-top: 0;
+  }
+  .wrapper h1 {
+      font-size: 30px;
+      padding-left: 10px;
+  }
+
+  .wrapper h2 {
+      font-size: 35px;
+      top: 60px;
+  }
+}
+
+@media all and (max-width: 375px) {
+  .container {
+      padding-top: 0;
+  }
+  .wrapper h1 {
+      font-size: 30px;
+      padding-left: 10px;
+  }
+
+  .wrapper h2 {
+      font-size: 35px;
+      top: 60px;
+  }
+}
+
+@media all and (max-width: 320px) {
+    .container {
+        padding-top: 0;
+    }
+    .wrapper h1 {
+        font-size: 30px;
+        padding-left: 10px;
+    }
+
+    .wrapper h2 {
+        font-size: 35px;
+        top: 60px;
+        left: 10px;
+    }
+  }

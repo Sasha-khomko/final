@@ -33,9 +33,9 @@ const About = () => {
         </p>
       </div>
       <div className={styles.block3}>
-        <img src={Photo1} alt="#" />
-        <img src={Photo2} alt="#" />
-        <img src={Photo3} alt="#" />
+        <img className={styles.photo1} src={Photo1} alt="#" />
+        <img className={styles.photo2} src={Photo2} alt="#" />
+        <img className={styles.photo3} src={Photo3} alt="#" />
       </div>
       <div className={styles.contacts}>
         <div className={styles.wrapper__title2}>

@@ -38,4 +38,5 @@
     font-weight: 400;
     /* text-decoration-line: underline; */
     text-transform: uppercase;
+    cursor: pointer;
 }

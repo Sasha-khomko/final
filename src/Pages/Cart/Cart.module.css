@@ -46,6 +46,9 @@
     max-height: 550px;
     border-left: 3px solid #1F252D;
     padding-left: 13px;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
 }
 
 .text {
@@ -144,3 +147,374 @@ input {
 .button_toDesign:hover {
     background-image: url(../../assets/img/Group1.svg);
 }
+
+@media all and (max-width: 950px) {
+    .wrap_title h1 {
+        font-size: 60px;
+        margin-top: 30px;
+    }
+}
+
+
+@media all and (max-width: 900px) {
+    .wrap_title h1 {
+        font-size: 60px;
+        margin-top: 30px;
+    }
+}
+
+@media all and (max-width: 850px) {
+    .wrap_title h1 {
+        font-size: 60px;
+        margin-top: 30px;
+    }
+}
+
+@media all and (max-width: 800px) {
+
+    .wrap_title {
+        margin-top: 80px;
+    }
+    
+    .wrap_title h1 {
+        font-size: 60px;
+    }
+
+
+    input {
+        padding: 10px 140px 15px 10px;
+    }
+
+    .online {
+        width: 150px;
+        height: 40px;
+    }
+
+    .block4 {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+
+    .wrap_button {
+        margin: 10px;
+    }
+}
+
+@media all and (max-width: 799px) {
+
+    .wrap_title h1 {
+        font-size: 45px;
+        margin-left: -50px;
+    }
+
+    input {
+        padding: 10px 250px 15px 10px;
+    }
+
+    .block4 {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media all and (max-width: 768px) {
+
+    .wrap_title {
+        margin-top: 80px;
+    }
+    
+    .wrap_title h1 {
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .wrap_cart {
+        margin-top: 50px;
+    }
+
+    .form {
+        display: contents;
+    }
+
+    form {
+        margin-top: 100px;
+        border: none;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    input {
+        padding: 10px 250px 15px 10px;
+    }
+
+    .online {
+        width: 150px;
+        height: 40px;
+    }
+
+    .block4 {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .wrap_button {
+        margin: 10px;
+    }
+}
+
+@media all and (max-width: 750px) {
+
+    .wrap_title h1 {
+        font-size: 45px;
+        margin-left: -50px;
+    }
+
+    input {
+        padding: 10px 250px 15px 10px;
+    }
+
+    .block4 {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media all and (max-width: 700px) {
+
+    .wrap_title h1 {
+        font-size: 45px;
+        margin-left: -50px;
+    }
+
+    input {
+        padding: 10px 250px 15px 10px;
+    }
+
+    .block4 {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media all and (max-width: 650px) {
+
+    .wrap_title h1 {
+        font-size: 45px;
+        margin-left: -50px;
+    }
+
+    input {
+        padding: 10px 250px 15px 10px;
+    }
+
+    .block4 {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media all and (max-width: 600px) {
+
+    .wrap_title h1 {
+        font-size: 45px;
+        margin-left: -50px;
+    }
+
+    input {
+        padding: 10px 220px 15px 10px;
+    }
+
+    .block4 {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media all and (max-width: 550px) {
+
+    .wrap_title h1 {
+        font-size: 45px;
+        margin-left: -50px;
+    }
+
+    input {
+        padding: 10px 220px 15px 10px;
+    }
+
+    .block4 {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .wrap_title h1 {
+        font-size: 45px;
+        margin-left: -50px;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .wrap_title h1 {
+        font-size: 45px;
+        margin-left: -50px;
+    }
+}
+
+@media all and (max-width: 425px) {
+
+    .wrap_title {
+        margin-top: 80px;
+    }
+    
+    .wrap_title h1 {
+        font-size: 45px;
+        margin-left: -50px;
+    }
+
+    .wrap_cart {
+        margin-top: 50px;
+    }
+
+    form {
+        margin-top: 30px;
+        border: none;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    input {
+        padding: 10px 140px 15px 10px;
+    }
+
+    .online {
+        width: 150px;
+        height: 40px;
+    }
+
+    .block4 {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+
+    .wrap_button {
+        margin: 10px;
+    }
+}
+
+@media all and (max-width: 375px) {
+
+    .wrap_title {
+        margin-top: 80px;
+    }
+    
+    .wrap_title h1 {
+        font-size: 30px;
+        margin-left: -50px;
+    }
+
+    .wrap_cart {
+        margin-top: 50px;
+    }
+
+    form {
+        margin-top: 30px;
+        border: none;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    input {
+        padding: 10px 140px 15px 10px;
+    }
+
+    .online {
+        width: 150px;
+        height: 40px;
+    }
+
+    .block4 {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+
+    .wrap_button {
+        margin: 10px;
+    }
+}
+
+@media all and (max-width: 320px) {
+
+    .wrap_title {
+        margin-top: 80px;
+    }
+    
+    .wrap_title h1 {
+        font-size: 30px;
+        margin-left: -40px;
+    }
+
+    .wrap_cart {
+        margin-top: 50px;
+    }
+
+    form {
+        margin-top: 30px;
+        border: none;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    input {
+        padding: 10px 100px 15px 10px;
+    }
+
+    .online {
+        width: 150px;
+        height: 40px;
+    }
+
+    .block4 {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+
+    .wrap_button {
+        margin: 10px;
+    }
+}
+
+
+
+
+
+
